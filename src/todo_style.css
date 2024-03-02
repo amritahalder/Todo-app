@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-1 {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.content {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.container {
+  margin: 0 auto;
+  box-shadow: #cccccc 0px 6px 25px -11px;
+  padding: 0px 20px;
+}
+/* .main_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.heading h1 {
+  text-align: center;
+}
+.enterTask input {
+  width: 359px;
+  height: 45px;
+  border: solid 1px #dcdee3;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.addTask_btn button{
+  padding: 12px 15px;
+}
+.task_box {
+  width: 456px;
+  height: 45px;
+  margin-bottom: 15px;
+  padding: 4px 10px;
+  background-color: #e6e6e6;
+  border-radius: 5px;
+}
+.clickable_btn button {
+  margin-left: 5px;
+  background: transparent;
+  border: 0;
+  background: #8453ed;
+  padding: 5px 13px;
+  border-radius: 3px;
+  color: #fff;
+}
+.left_part p {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  margin-left: 5px;
+}
+.left_part input {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  margin-left: 5px;
+  border: 0;
+  background-color: transparent;
+  font-family: serif;
+}
+.left_part input:focus {
+  outline: none;
+}
+.outerPart_taskBox p {
+  text-decoration: line-through;
+}
+.outerPart_taskBox button:nth-child(1) {
+  background: #bf0b41;
+}
+.input_part {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.addTask_btn {
+  margin-left: 10px;
+}
